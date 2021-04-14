@@ -1,0 +1,36 @@
+{
+    "files.associations": {
+    
+        "Dockerfile*": "dockerfile",
+        "iris.script": "objectscript"
+      },
+    "objectscript.conn" :{
+      "ns": "USER",
+      "username": "_SYSTEM",
+      "password": "SYS",
+      "docker-compose": {
+        "service": "iris",
+        "internalPort": 52773
+      },
+      "links": {
+        "Frontend Page":"http://localhost:${port}/deploy/page17617906.html"
+      },
+      "active": true
+    },
+    "sqltools.connections": [
+      {
+        "namespace": "USER",
+        "connectionMethod": "Server and Port",
+        "showSystem": false,
+        "previewLimit": 50,
+        "server": "localhost",
+        "port": 55003,
+        "askForPassword": false,
+        "driver": "InterSystems IRIS",
+        "name": "objectscript-docker",
+        "username": "_SYSTEM",
+        "password": "SYS"
+      }
+    ]
+
+}
