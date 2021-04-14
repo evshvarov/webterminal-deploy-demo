@@ -10,15 +10,15 @@ env:
   # Change this section according to your needs
   IMAGE_NAME:   webterminal-demo
   SERVICE:      webterminal-demo
-  DOMAIN_NAME:  webterminal.demo.community.intersystems.com
+  DOMAIN_NAME:  webterminal.contest.community.intersystems.com
 
   # Leave this section untouched
-  PROJECT_ID:   iris-community-demos
-  CLUSTER_NAME: .
+  PROJECT_ID:   hackathon-297608
+  CLUSTER_NAME: contest
   GITHUB_SHA:   ${{ github.sha }}
   GCR_LOCATION: eu.gcr.io
   REGION:       europe-west2
-  NAMESPACE:    demo
+  NAMESPACE:    contest
 
 jobs:
   deploy-cloud-run:
