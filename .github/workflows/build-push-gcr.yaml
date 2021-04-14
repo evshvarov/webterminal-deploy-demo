@@ -8,17 +8,17 @@ on:
 
 env:
   # Change this section according to your needs
-  IMAGE_NAME:   terminal-demo
-  SERVICE:      terminal-demo
-  DOMAIN_NAME:  terminal.contest.community.intersystems.com
+  IMAGE_NAME:   webterminal-demo
+  SERVICE:      webterminal-demo
+  DOMAIN_NAME:  webterminal.demo.community.intersystems.com
 
   # Leave this section untouched
-  PROJECT_ID:   hackathon-297608
-  CLUSTER_NAME: contest
+  PROJECT_ID:   iris-community-demos
+  CLUSTER_NAME: .
   GITHUB_SHA:   ${{ github.sha }}
   GCR_LOCATION: eu.gcr.io
   REGION:       europe-west2
-  NAMESPACE:    contest
+  NAMESPACE:    demo
 
 jobs:
   deploy-cloud-run:
