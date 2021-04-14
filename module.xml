@@ -7,7 +7,6 @@
       <Description>Deployment of the simple InterSystems IRIS frontend app to GCP via Google Run</Description>
       <Keywords>deployment,gcp,google-run,iris</Keywords>
       <Packaging>module</Packaging>
-      <CSPApplication CookiePath="/deploy/" DefaultTimeout="900" DeployPath="${cspdir}deploy" PasswordAuthEnabled="1" Recurse="1" ServeFiles="1" ServeFilesTimeout="3600" SourcePath="/frontend" UnauthenticatedEnabled="0" Url="/deploy" UseSessionCookie="2"/>
       <Resource Name="dc.PKG"/>
       <SourcesRoot>src</SourcesRoot>
     </Module>

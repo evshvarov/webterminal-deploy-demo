@@ -8,9 +8,9 @@ on:
 
 env:
   # Change this section according to your needs
-  IMAGE_NAME:   iris-google-run-demo
-  SERVICE:      deploy-demo
-  DOMAIN_NAME:  deploy.contest.community.intersystems.com
+  IMAGE_NAME:   webterminal-demo
+  SERVICE:      webterminal-demo
+  DOMAIN_NAME:  webterminal.contest.community.intersystems.com
 
   # Leave this section untouched
   PROJECT_ID:   hackathon-297608
